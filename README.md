@@ -30,7 +30,7 @@ Built for speed, flexibility, and automation — perfect for integrating into mo
 ## 📥 Installation
 
 ```bash
-git clone https://github.com/yourusername/nmap-xml-parser.git
+git clone https://github.com/XXXKRSXXX-25/nmap-xml-parser.git
 cd nmap-xml-parser
 chmod +x nmap-xml-parser.py
 ```
