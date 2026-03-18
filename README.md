@@ -32,7 +32,7 @@ Built for speed, flexibility, and automation — perfect for integrating into mo
 ```bash
 git clone https://github.com/yourusername/nmap-xml-parser.git
 cd nmap-xml-parser
-chmod +x script.py
+chmod +x nmap-xml-parser.py
 ```
 
 ---
@@ -40,7 +40,7 @@ chmod +x script.py
 ## ⚙️ Usage
 
 ```bash
-python script.py -l scan.xml [options]
+python nmap-xml-parser.py -l scan.xml [options]
 ```
 
 ---
@@ -50,7 +50,7 @@ python script.py -l scan.xml [options]
 ### ✅ Basic
 
 ```bash
-python script.py -l scan.xml
+python nmap-xml-parser.py -l scan.xml
 ```
 
 ```
@@ -63,7 +63,7 @@ python script.py -l scan.xml
 ### 🔎 Show service + version
 
 ```bash
-python script.py -l scan.xml -s
+python nmap-xml-parser.py -l scan.xml -s
 ```
 
 ```
@@ -75,7 +75,7 @@ python script.py -l scan.xml -s
 ### 🎯 Filter ports
 
 ```bash
-python script.py -l scan.xml -p 80,443
+python nmap-xml-parser.py -l scan.xml -p 80,443
 ```
 
 ---
@@ -83,7 +83,7 @@ python script.py -l scan.xml -p 80,443
 ### 🔍 Filter services
 
 ```bash
-python script.py -l scan.xml --service-filter http,ssh
+python nmap-xml-parser.py -l scan.xml --service-filter http,ssh
 ```
 
 ---
@@ -91,7 +91,7 @@ python script.py -l scan.xml --service-filter http,ssh
 ### 🧠 Regex match (Apache)
 
 ```bash
-python script.py -l scan.xml --match apache -s
+python nmap-xml-parser.py -l scan.xml --match apache -s
 ```
 
 ---
@@ -99,7 +99,7 @@ python script.py -l scan.xml --match apache -s
 ### 🌐 Only web services
 
 ```bash
-python script.py -l scan.xml --web -s
+python nmap-xml-parser.py -l scan.xml --web -s
 ```
 
 ---
@@ -107,7 +107,7 @@ python script.py -l scan.xml --web -s
 ### 🧵 Multi-file parsing
 
 ```bash
-python script.py -l scan1.xml scan2.xml -t 8
+python nmap-xml-parser.py -l scan1.xml scan2.xml -t 8
 ```
 
 ---
@@ -115,7 +115,7 @@ python script.py -l scan1.xml scan2.xml -t 8
 ### 📦 JSON output
 
 ```bash
-python script.py -l scan.xml --json
+python nmap-xml-parser.py -l scan.xml --json
 ```
 
 ---
@@ -123,7 +123,7 @@ python script.py -l scan.xml --json
 ### 📊 CSV export
 
 ```bash
-python script.py -l scan.xml --csv -o output.csv
+python nmap-xml-parser.py -l scan.xml --csv -o output.csv
 ```
 
 ---
@@ -131,7 +131,7 @@ python script.py -l scan.xml --csv -o output.csv
 ### 🎨 Color output
 
 ```bash
-python script.py -l scan.xml -s --color
+python nmap-xml-parser.py -l scan.xml -s --color
 ```
 
 ---
@@ -139,7 +139,7 @@ python script.py -l scan.xml -s --color
 ### 💣 Real-world usage
 
 ```bash
-python script.py -l *.xml --web --match nginx -s --color -t 10
+python nmap-xml-parser.py -l *.xml --web --match nginx -s --color -t 10
 ```
 
 ---
